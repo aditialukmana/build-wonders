@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Quantico&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+body::before {
+  content: '';
+  background-image: url(../img/background.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 50vmax;
+  position: absolute;
+  margin-top: 5em;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+body .home {
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(35.94%, rgba(30, 126, 205, 0.880208)), to(rgba(4, 3, 45, 0)));
+  background: linear-gradient(180deg, rgba(30, 126, 205, 0.880208) 35.94%, rgba(4, 3, 45, 0) 100%);
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+body .home .custom-section {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10em;
+}
+
+body .home .custom-section h2 {
+  font-weight: 400;
+  font-size: 40px;
+  color: white;
+}
+
+body .home .custom-section p {
+  color: white;
+  font-size: 18px;
+  margin-top: 2em;
+}
+
+body .navbar .navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 32px;
+  color: white;
+}
+
+body .navbar .navbar-nav {
+  font-family: 'Quantico', sans-serif;
+  font-size: 18px;
+  color: white;
+  padding-top: 2em;
+  margin-left: 4em;
+}
+
+body .navbar .navbar-nav .nav-item {
+  margin-left: 3em;
+}
+
+body .navbar .navbar-nav .button-login {
+  border-radius: 2em;
+  border: 0;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  background-color: black;
+  margin-left: -2em;
+}
+
+body .navbar .pembatas {
+  border: 1px white solid;
+  height: 50px;
+  width: 0px;
+  margin-left: 14em;
+  margin-right: -2.5em;
+}
+
+.info-panel {
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 18px;
+  background-color: white;
+  margin-top: -75px;
+  height: 200px;
+}
+
+.info-panel .payment-method {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.info-panel .payment-method p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  margin-top: 1.5em;
+}
+
+.info-panel .payment-method img {
+  float: left;
+  margin-top: -1.5em;
+}
+
+.info-panel .bca {
+  width: 144px;
+  height: 50px;
+  margin-top: 2em;
+}
+
+.kedua {
+  height: 1250px;
+}
+
+.kedua .belajar {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 8em;
+}
+
+.kedua .belajar h4 {
+  color: #464477;
+  font-weight: 400;
+  margin-top: 1em;
+}
+
+.kedua .belajar p {
+  color: #464477;
+  font-weight: 300;
+}
+
+.kedua .belajar img {
+  margin-top: -5em;
+  margin-left: 75%;
+}
+
+.kedua .terpopuler {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10em;
+}
+
+.kedua .terpopuler h3 {
+  font-size: 24px;
+  color: #464477;
+}
+
+.kedua .terpopuler p {
+  font-size: 18px;
+  color: #464477;
+  margin-top: 2em;
+  font-weight: 300;
+  margin-bottom: 5em;
+}
+
+.kedua .produk .card {
+  padding: 20px;
+  height: 500px;
+}
+
+.kedua .produk .card .card-body img {
+  margin-left: -1em;
+}
+
+.kedua .produk .card .card-body .card-title {
+  margin-bottom: 2em;
+}
+
+.kedua .produk .card .card-body .berbayar {
+  border: 0 white;
+  background: #FF652C;
+  border-radius: 4px;
+  padding: 7px 9px;
+  color: white;
+  margin-bottom: 1.5em;
+}
+
+.kedua .produk .card .card-body .nama-pembuat {
+  color: black;
+  font-weight: 500;
+  margin-top: 0.5em;
+  font-size: 18px;
+}
+
+.kedua .produk .card .card-body .profesi {
+  font-size: 16px;
+  color: black;
+  font-weight: 300;
+  margin-top: -0.1em;
+}
+
+.about-us {
+  height: 125vh;
+}
+
+.about-us h4 {
+  margin-bottom: 50px;
+}
+
+.about-us p {
+  margin-left: 1em;
+}
+
+.about-us img {
+  background: rgba(196, 196, 196, 0.6);
+  -webkit-box-shadow: inset -7px -12px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: inset -7px -12px 4px rgba(0, 0, 0, 0.25);
+}
+
+.about-us .alamat p {
+  margin-top: 10em;
+}
+
+.about-us .alamat iframe {
+  margin-left: 5em;
+  margin-top: 3em;
+}
+
+.footer {
+  font-family: 'Roboto', sans-serif;
+  height: 550px;
+  background-color: #1E7ECD;
+}
+
+.footer img {
+  background: rgba(196, 196, 196, 0.6);
+  -webkit-box-shadow: inset -7px -12px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: inset -7px -12px 4px rgba(0, 0, 0, 0.25);
+  width: 66px;
+  height: 66px;
+  margin-bottom: 2em;
+}
+
+.footer p {
+  line-height: 20px;
+  color: white;
+  font-weight: 300;
+}
+
+.footer .title {
+  margin-top: 5em;
+  font-weight: 500;
+}
+
+.footer .footer1 {
+  margin-left: 10%;
+}
+
+.footer .copyright {
+  margin-top: 5em;
+}
+/*# sourceMappingURL=style.css.map */

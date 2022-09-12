@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quantico&family=Roboto&display=swap');
+
+.body {
+    height: 100%;
+}
+
+.myaccount {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    .sidebar {
+        background: #04032D;
+        img {
+            margin-left: 25%;
+            margin-right: 25%;
+            border: 4px solid gray;
+            margin-top: 6em;
+        }
+        .nama {
+            text-align: center;
+            font-weight: 400;
+            font-size: 18px;
+        }
+        .profesi {
+            text-align: center;
+            margin-top: -1em;
+            margin-bottom: 5em;
+            font-size: 16px;
+        }
+        p {
+            color: white;
+            font-weight: 300;
+            font-size: 14px;
+        }
+        .submenu {
+            margin-left: 15%;
+            a {
+                display: block;
+                text-decoration: none;
+                color: white;
+                margin-bottom: 1em;
+            }
+            .akun {
+                font-weight: 500;
+            }
+            .profil {
+                color: #FB8D64;
+            }
+        }
+    }
+}
+
+.utama {
+    h4 {
+        font-family: 'Quantico', sans-serif;
+    }
+    p {
+        color: grey;
+    }
+    .container {
+        form {
+            label {
+                font-weight: 300;
+                font-size: 16px;
+            }
+            .gap-2 {
+                .btn-primary {
+                    background-color: #04032D;
+                }
+            }
+        }
+    }
+}
+
+.photo {
+    p {
+        font-family: 'Quantico', sans-serif;
+        margin-left: 5em;
+        font-size: 24px;
+    }
+    img {
+        width: 384px;
+    }
+}
+
+.fixed-bottom {
+    position:fixed;
+    bottom:20px;
+    right: 20px;
+    left: 90%;
+    z-index:9999;
+    text-decoration: none;
+    color: black;
+}
+
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+    height: 550px;
+    background-color: #04032D;
+    img {
+        background: rgba(196, 196, 196, 0.6);
+        box-shadow: inset -7px -12px 4px rgba(0, 0, 0, 0.25);
+        width: 66px;
+        height: 66px;
+        margin-bottom: 2em;
+    }
+    p {
+        line-height: 20px;
+        color:white;
+        font-weight: 300;
+    }
+    .title {
+        margin-top: 5em;
+        font-weight: 500;
+    }
+    .footer1 {
+        margin-left: 10%;
+    }
+    .copyright {
+        margin-top: 5em;
+    }
+    
+}
